@@ -193,6 +193,7 @@ static char* config_name[ BLIS_NUM_ARCHS ] =
     "bulldozer",
 
     "thunderx2",
+    "cortexa72",
     "cortexa57",
     "cortexa53",
     "cortexa15",

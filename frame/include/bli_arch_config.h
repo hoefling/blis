@@ -86,6 +86,9 @@ CNTX_INIT_PROTS( bulldozer )
 #ifdef BLIS_CONFIG_THUNDERX2
 CNTX_INIT_PROTS( thunderx2 )
 #endif
+#ifdef BLIS_CONFIG_CORTEXA72
+CNTX_INIT_PROTS( cortexa72 )
+#endif
 #ifdef BLIS_CONFIG_CORTEXA57
 CNTX_INIT_PROTS( cortexa57 )
 #endif
@@ -182,6 +185,9 @@ CNTX_INIT_PROTS( generic )
 
 #ifdef BLIS_FAMILY_THUNDERX2
 #include "bli_family_thunderx2.h"
+#endif
+#ifdef BLIS_FAMILY_CORTEXA72
+#include "bli_family_cortexa72.h"
 #endif
 #ifdef BLIS_FAMILY_CORTEXA57
 #include "bli_family_cortexa57.h"

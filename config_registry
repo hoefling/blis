@@ -33,6 +33,7 @@ bulldozer:   bulldozer
 
 # ARM architectures.
 thunderx2:   thunderx2/armv8a
+cortexa72:   cortexa72/armv8a
 cortexa57:   cortexa57/armv8a
 cortexa53:   cortexa53/armv8a
 cortexa15:   cortexa15/armv7a
